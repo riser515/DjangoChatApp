@@ -12,7 +12,5 @@ import os
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chat_app.settings')
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chat_app.asgi.application')
 
 application = get_asgi_application()
-# application = 'chat_app.asgi.application'
